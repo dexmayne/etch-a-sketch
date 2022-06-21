@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body{
+  background-color: #180539;
+  font-family: 'Space Mono', monospace;
+}
+
+button{
+  font-family: 'Space Mono', monospace;
+}
+
+h1, p, a{
+  color: #fff;
+}
+
+.nav{
+  color: #fff;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.gameContainer{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0px;
+}
+
+
+.grid-item{
+  float: left;
+  height: 30px;
+  width: 30px;
+  background-color: orange;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+#btn-generate{
+  background-color: #fff;
+  color: #180539;
+  background-color: #fff;
+  padding: 12px 18px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  margin: 10px 0px;
+}
+
+footer{
+  color: white;
+  margin-bottom: 20px;
+}
